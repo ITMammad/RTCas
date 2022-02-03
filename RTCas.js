@@ -1,11 +1,11 @@
-class RTCad {
+class RTCas {
     constructor() {
-        return "RTCad";
+        return "RTCas";
     }
 
     async getMedia(constraints) {
         if (typeof constraints !== "object") {
-            throw "RTCad parameters error!";
+            throw "RTCas parameters error!";
         } else {
             let stream = await navigator.mediaDevices.getUserMedia(constraints)
             .then((stream) => {
@@ -19,7 +19,7 @@ class RTCad {
 
     async getDisplay(constraints) {
         if (typeof constraints !== "object") {
-            throw "RTCad parameters error!";
+            throw "RTCas parameters error!";
         } else {
             let stream = await navigator.mediaDevices.getDisplayMedia(constraints)
             .then((stream) => {
