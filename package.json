@@ -1,0 +1,25 @@
+{
+  "name": "rtcas",
+  "version": "1.0.0",
+  "description": "A WebRTC Handler for front end developers...",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amy-soft/RTCas.git"
+  },
+  "keywords": [
+    "WebRTC",
+    "FrontEnd",
+    "AMYSoft"
+  ],
+  "author": "AMYSoft Development Team...",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amy-soft/RTCas/issues"
+  },
+  "homepage": "https://github.com/amy-soft/RTCas#readme"
+}
