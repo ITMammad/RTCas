@@ -33,7 +33,7 @@ class RTCas {
 
     assignTo(querySelector , stream) {
         var element = document.querySelector(querySelector);
-        if ("srcObject" in ele) {
+        if ("srcObject" in element) {
             element.srcObject = stream;
         } else {
             element.src = window.URL.createObjectURL(stream);
