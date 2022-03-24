@@ -1,6 +1,6 @@
 class RTCas {
     constructor() {
-        return "new RTCas();";
+        return "RTCas::Developed by ❤️ from AMYSoft Development Team...";
     }
 
     async getMedia(constraints) {
