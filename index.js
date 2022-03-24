@@ -31,12 +31,12 @@ class RTCas {
         }
     }
 
-    assignTo(QS , stream) {
-        var element = document.querySelector(QS);
+    assignTo(querySelector , stream) {
+        var element = document.querySelector(querySelector);
         if ("srcObject" in ele) {
             element.srcObject = stream;
         } else {
-            element.src = window.URL.createObjectURL(QS);
+            element.src = window.URL.createObjectURL(stream);
         }
     }
 }
