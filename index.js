@@ -1,6 +1,6 @@
 class RTCas {
     constructor() {
-        return "RTCas";
+        return "new RTCas();";
     }
 
     async getMedia(constraints) {
