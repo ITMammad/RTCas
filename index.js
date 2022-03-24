@@ -1,6 +1,12 @@
 class RTCas {
     constructor() {
-        return "RTCas::Developed by ❤️ from AMYSoft Development Team...";
+        if (window.location.protocol === "https:") {
+            return "RTCas::Developed by ❤️ from AMYSoft Development Team...";
+        } else {
+            if (window.location.origin.indexOf("localhost") === -1) {
+                throw new Error("WebRTC only works on localhost and domains secured with SSL...\nIf it's IP of localhost server, instend localhost at the domain origin...");
+            }
+        }
     }
 
     async getMedia(constraints) {
