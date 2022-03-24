@@ -1,4 +1,4 @@
-class RTCasClass {
+class RTCas {
     constructor() {
         return "RTCas";
     }
@@ -41,4 +41,4 @@ class RTCasClass {
     }
 }
 
-module.exports = RTCasClass;
+module.exports = RTCas;
